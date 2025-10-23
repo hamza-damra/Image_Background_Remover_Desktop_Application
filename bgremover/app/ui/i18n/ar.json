@@ -1,0 +1,181 @@
+{
+  "app_name": "إزالة الخلفيات",
+  "app_description": "إزالة خلفيات احترافية بالذكاء الاصطناعي",
+  
+  "menu": {
+    "file": "ملف",
+    "edit": "تحرير",
+    "view": "عرض",
+    "help": "مساعدة",
+    "open_images": "فتح صور...",
+    "open_folder": "فتح مجلد...",
+    "save_output": "حفظ المخرجات...",
+    "exit": "خروج",
+    "settings": "إعدادات...",
+    "presets": "القوالب",
+    "about": "حول"
+  },
+  
+  "toolbar": {
+    "open": "فتح",
+    "start": "بدء المعالجة",
+    "pause": "إيقاف مؤقت",
+    "cancel": "إلغاء",
+    "clear": "مسح القائمة",
+    "output_dir": "مجلد الإخراج",
+    "language": "اللغة"
+  },
+  
+  "queue": {
+    "title": "قائمة المعالجة",
+    "items": "عنصر",
+    "status_pending": "في الانتظار",
+    "status_processing": "جاري المعالجة...",
+    "status_completed": "مكتمل",
+    "status_failed": "فشل",
+    "status_cancelled": "ملغي",
+    "remove": "إزالة",
+    "remove_all": "إزالة الكل",
+    "add_images": "إضافة صور",
+    "drag_drop": "اسحب وأفلت الصور أو المجلدات هنا"
+  },
+  
+  "preview": {
+    "title": "المعاينة",
+    "before": "قبل",
+    "after": "بعد",
+    "no_image": "لم يتم اختيار صورة",
+    "loading": "جاري التحميل...",
+    "error": "خطأ في تحميل الصورة",
+    "zoom_in": "تكبير",
+    "zoom_out": "تصغير",
+    "fit": "ملء النافذة",
+    "actual_size": "الحجم الفعلي"
+  },
+  
+  "settings_panel": {
+    "title": "الإعدادات",
+    "tab_output": "الإخراج",
+    "tab_quality": "الجودة",
+    "tab_presets": "القوالب",
+    
+    "output_format": "التنسيق",
+    "output_quality": "الجودة",
+    "background_type": "الخلفية",
+    "bg_transparent": "شفافة",
+    "bg_color": "لون ثابت",
+    "bg_image": "صورة",
+    "background_color": "اللون",
+    "choose_color": "اختر لون",
+    "background_image": "صورة الخلفية",
+    "browse": "استعراض...",
+    
+    "canvas_size": "حجم القالب",
+    "width": "العرض",
+    "height": "الارتفاع",
+    "maintain_aspect": "الحفاظ على النسبة",
+    "auto_size": "تلقائي",
+    "center_object": "توسيط الكائن",
+    "margin": "الهامش",
+    "feather_edges": "تنعيم الحواف",
+    
+    "alpha_matting": "معالجة الشفافية المتقدمة",
+    "alpha_matting_desc": "جودة أفضل للحواف (أبطأ)",
+    "foreground_threshold": "عتبة المقدمة",
+    "background_threshold": "عتبة الخلفية",
+    "remove_small_objects": "إزالة الكائنات الصغيرة",
+    "min_object_size": "الحد الأدنى لحجم الكائن",
+    "smooth_edges": "تنعيم الحواف",
+    "edge_smooth_kernel": "قوة التنعيم",
+    
+    "preset_select": "اختر قالب",
+    "preset_apply": "تطبيق",
+    "preset_save": "حفظ الحالي كقالب",
+    "preset_delete": "حذف",
+    "preset_export": "تصدير",
+    "preset_import": "استيراد"
+  },
+  
+  "presets": {
+    "transparent": "شفاف - للويب",
+    "marketplace": "المتاجر 1600×1600",
+    "white_bg": "منتج - خلفية بيضاء",
+    "social_media_square": "وسائل التواصل مربع",
+    "product_photography": "تصوير المنتجات",
+    "catalog_print": "كتالوج / طباعة"
+  },
+  
+  "dialogs": {
+    "confirm": "تأكيد",
+    "cancel": "إلغاء",
+    "ok": "موافق",
+    "yes": "نعم",
+    "no": "لا",
+    "save": "حفظ",
+    "close": "إغلاق",
+    
+    "open_images_title": "اختر صور",
+    "open_folder_title": "اختر مجلد",
+    "save_output_title": "اختر مجلد الإخراج",
+    "choose_bg_image_title": "اختر صورة الخلفية",
+    
+    "clear_queue_confirm": "هل أنت متأكد من مسح القائمة؟",
+    "cancel_processing_confirm": "إلغاء المعالجة؟ لا يمكن التراجع عن هذا الإجراء.",
+    "exit_while_processing": "المعالجة قيد التنفيذ. الخروج على أي حال؟",
+    
+    "error_title": "خطأ",
+    "warning_title": "تحذير",
+    "info_title": "معلومات",
+    "success_title": "نجاح"
+  },
+  
+  "messages": {
+    "processing_started": "بدأت المعالجة",
+    "processing_paused": "المعالجة متوقفة مؤقتًا",
+    "processing_cancelled": "تم إلغاء المعالجة",
+    "processing_completed": "اكتملت المعالجة بنجاح",
+    "batch_completed": "اكتملت الدفعة: {0} ناجح، {1} فاشل",
+    
+    "images_added": "تمت إضافة {0} صورة إلى القائمة",
+    "no_images_selected": "لم يتم اختيار صور",
+    "invalid_output_dir": "الرجاء اختيار مجلد إخراج صالح",
+    "model_downloading": "جاري تحميل نموذج الذكاء الاصطناعي... قد يستغرق بضع دقائق.",
+    "model_ready": "نموذج الذكاء الاصطناعي جاهز",
+    
+    "task_completed": "مكتمل: {0}",
+    "task_failed": "فشل: {0} - {1}",
+    
+    "preset_saved": "تم حفظ القالب: {0}",
+    "preset_deleted": "تم حذف القالب: {0}",
+    "preset_applied": "تم تطبيق القالب: {0}",
+    
+    "settings_saved": "تم حفظ الإعدادات",
+    "settings_loaded": "تم تحميل الإعدادات"
+  },
+  
+  "theme": {
+    "dark": "داكن",
+    "light": "فاتح",
+    "auto": "تلقائي"
+  },
+  
+  "about": {
+    "version": "الإصدار",
+    "description": "تطبيق احترافي لإزالة الخلفيات مدعوم بالذكاء الاصطناعي. قم بإزالة خلفيات الصور محليًا بدون خدمات سحابية.",
+    "credits": "الشكر والتقدير",
+    "license": "الترخيص",
+    "website": "الموقع الإلكتروني"
+  },
+  
+  "shortcuts": {
+    "open": "Ctrl+O",
+    "save": "Ctrl+S",
+    "start": "Ctrl+Enter",
+    "cancel": "Esc",
+    "quit": "Ctrl+Q",
+    "settings": "Ctrl+,",
+    "zoom_in": "Ctrl++",
+    "zoom_out": "Ctrl+-",
+    "fit": "Ctrl+0"
+  }
+}
